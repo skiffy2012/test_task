@@ -1,0 +1,795 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+.container{
+	width: 1920px;
+	height: 2256px;
+	background-color: #e1f0f8;
+}
+.bg_header{
+	background-color: white;
+	width: 1145px;
+	height: 214px;
+	display: block;
+	float: left;
+	margin-top: 0;
+	margin-left:383px;
+}
+
+.logo{
+	background: url(logo.png);	
+	width: 232px;
+	height: 122px;
+	display: block;
+	float: left;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+
+.text_header_9{
+	/* Style for "с 9 до 21" */
+	width: 176px;
+	height: 15px;
+	color: #484745;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+	float: left;
+	margin-top: -70px;
+	margin-left:941px;
+}
+
+.text_header_st{
+	/* Style for "Рассчитать" */
+	width: 235px;
+	height: 21px;
+	color: #484745;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 23px;
+	font-weight: 400;
+	text-decoration: underline;
+	font-variant: small-caps;
+	display: block;
+	float: left;
+	margin-top: -38px;
+	margin-left: 565px;
+}
+
+.text_header_st:hover{
+	color: #f36240;
+}
+
+.text_header_phone{
+	/* Style for "+7 495 534" */
+	width: 255px;
+	height: 23px;
+	color: #484745;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 31px;
+	font-weight: 400;
+	display: block;
+	float:left;
+	margin-top: -40px;
+	margin-left: 873px
+}
+
+.menu_header_block {
+	display: block;
+	float: left;
+	margin-top: 22px;
+	margin-left: 0px;
+
+	}
+
+.menu_header {
+	/* Style for "О компании" */
+	list-style: none;
+	width: 1144px;
+	height: 50px;
+	display: inline-block;
+	color: #5f6973;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 24px;
+	font-weight: 400;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	
+}	
+
+.menu_header > li{
+	display: inline-block;
+	text-transform: none;
+	text-align: center;
+	width: 228px;
+	height: 57px;
+	margin: -3px;
+	padding: 0;
+	border-right: 1px solid black;
+}
+
+.menu_header > li > a{
+	display: block;
+	height: 47px;
+	color: #5f6973;
+	cursor: pointer;
+	text-decoration: none;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+
+.menu_header > li:hover{
+	background-color: #7bc3d5;
+	cursor: pointer;
+}
+
+/*main*/
+
+.text_top_main{
+	display: block;
+	float: left;
+	margin-left: 382px;
+	margin-top: 22px;
+}
+
+.text_main_window{
+	display: block;
+	float: left;
+	margin-left:0 ;
+	margin-top: 0;
+	width: 893px;
+	height: 75px;
+	color: #4b4b4b;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 65px;
+	font-weight: 400;
+}
+
+.text_main_window2{
+			/* Text style for "Ламинируем" */
+	font-family: "Helvetica Neue Cyr";
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.main_menu_left_block{
+			/* Style for "Rectangle" */
+	display: block;
+	float: left;
+	margin-top: 160px;
+	margin-left: -893px;
+	width: 240px;
+	height: 469px;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.main_menu_left_block>p{
+	/* Style for "Рекомендуе" */
+	display: block;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	width: 181px;
+	height: 19px;
+	color: #4b4b4b;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.main_menu_left{
+			/* Style for "Edinburgh" */
+	display:inline-block;
+	background-color: white;
+	width: 188px;
+	height: 361px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.main_menu_left > li{
+	display: block;
+	height: 35px;
+	margin-top: 4px;
+}
+
+.main_menu_left > li > a{
+/* Text style for "Edinburgh" */
+	display: block;
+
+	color: #8a8a8a;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.main_menu_left > li > a:hover{
+			/* Text style for "Estet by R" */
+	color: #eb5825;
+}
+
+.content{
+			/* Style for "Rectangle" */
+	display: block;
+	float: left;
+	margin-top: -470px;
+	margin-left: 650px;
+	width: 877px;
+	height: 610px;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.create_this{
+			/* Style for "Создайте в" */
+	display: block;
+	float: left;
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 769px;
+	height: 24px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 26px;
+	font-weight: 400;
+}
+
+.image_block{
+	width: 198px;
+	height: 414px;
+	display: block;
+	float: left;
+	margin-top: 40px;
+	margin-left: 80px;
+}
+
+.text_img_block{
+			/* Style for "Ирландский" */
+	display: block;
+	float: left;
+	margin-left: 45px;
+	margin-top: 44px;
+	width: 131px;
+	height: 17px;
+	color: #a6a6a6;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.menu_content_block{
+	width: 440px;
+	height: 70px;
+	display: block;
+	margin-top: 91px;
+	margin-left: 400px;
+}
+
+.menu_content > li{
+	color: #eb5825;
+}
+
+.menu_content > li > a{
+			/* Style for "Точная виз" */
+	display: block;
+	width: 418px;
+	height: 32px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.text_window{
+			/* Style for "Подберите" */
+	display: block;
+	margin-top: 50px;
+	margin-left: 380px;
+	width: 292px;
+	height: 19px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.image_block_window{
+	display: block;
+	width: 500px;
+	height: 65px;
+	margin-top: 20px;
+	margin-left: 365px;
+}
+
+.image_block_window .images > img{
+	border-radius: 15px;
+}
+
+
+.image_block_window > img:hover{
+	opacity: 0.9;
+}
+
+.images{
+	display: block;
+	float: left;
+	padding: 5px;
+	width: 61px;
+	height: 59px;
+}
+
+.images  > img, .marker > img{
+	position: absolute;
+}
+
+.content_options{
+		/* Style for "Больше 50" */
+	display: block;
+	margin-top: 29px;
+	margin-left: 371px;
+	width: 349px;
+	height: 30px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.price_block_sale{
+	display: block;
+	margin-top: 24px;
+	margin-left: 379px;
+	width: 320px;
+	height: 55px;
+}	
+
+.price{
+		/* Style for "цена:" */
+	display: block;
+	float: left;
+	margin-left: 0px;
+	margin-top:0px;
+	width: 125px;
+	height: 42px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 18px;
+	font-weight: 400;
+	border-right: 1px solid #dcdcdc;
+}
+
+.price_text_2{
+		/* Style for "от 4 214 р" */
+	display: block;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 110px;
+	height: 17px;
+	color: #eb5825;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.sale_block{
+	width: 58px;
+	height: 46px;
+	display: block;
+	float: left;
+	margin-left: 13px;
+	margin-top: 0px;
+	border-right: 1px solid #dcdcdc; 
+}
+
+.sale_text{
+		/* Text style for "скидка" */
+	display: block;
+	float: left;
+	margin-top: 3px;
+	margin-left: 5px;
+	width: 45px;
+	height: 30px;
+	font-family: "Helvetica Neue Cyr";
+	color: #8a8a8a;
+	font-size: 14px;
+	font-weight: 400;
+	
+}
+
+.sale_text_2{
+		/* Text style for "-70%" */
+	display: block;
+	float: left;
+	margin-top: -12px;
+	margin-left: 3px;	
+	width: 45px;
+	height: 30px;
+	font-family: "Helvetica Neue Cyr";	
+	color: #eb5825;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.action_block{
+	width: 70px;
+	height: 50px;
+	display: block;
+	float: left;
+	margin-top: 0px;
+	margin-left: 12px;
+}
+
+.action_text{
+		/* Style for "действует" */
+	display: block;
+	float: left;
+	margin-left: 0px;
+	margin-top: 3px;
+	width: 68px;
+	height: 46px;
+	color: #8a8a8a;
+	font-weight: 400;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 14px;
+}
+
+.action_text_2{
+		/* Text style for "с 15 по 20" */
+	display: block;
+	float: left;
+	margin-left: 0px;
+	margin-top: -27px;
+	color: #eb5825;
+	font-weight: 700;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 14px;
+}
+
+.action_text_3{
+		/* Text style for "февраля" */
+	display: block;
+	float: left;
+	margin-left: 6px;
+	margin-top: -11px;
+	color: #484848;
+	font-weight: 400;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 14px;
+}
+
+.content_bottom{
+		/* Style for "Rectangle" */
+	display: block;
+	float: left;
+	margin-left: 0px;
+	margin-top: 130px;
+	width: 877px;
+	height: 480px;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.lamination{
+		/* Style for "Зачем испо" */
+	display: block;
+	float: left;
+	margin-top: 36px;
+	margin-left: 28px;
+	width: 790px;
+	height: 179px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-weight: 400;
+	font-size: 26px;
+}
+
+.forma_1{
+		/* Style for "Forma 1" */
+	display: block;
+	float: left;
+	margin-left: -789px;
+	margin-top: 83px;
+	width: 55px;
+	height: 53px;
+	
+}
+
+.content_text{
+	display: block;
+	float: left;
+	margin-left: 120px;
+	margin-top: -130px;
+	width: 635px;
+	height: 179px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.forma_2{
+		/* Style for "Forma 1" */
+	display: block;
+	float: left;
+	margin-left: -730px;
+	margin-top: -52px;
+	width: 55px;
+	height: 53px;
+}
+
+.content_text_2{
+	display: block;
+	float: left;
+	margin-left: 120px;
+	margin-top: -105px;
+	width: 635px;
+	height: 70px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.window_color{
+		/*Как окна становятся цветными?*/
+	display: block;
+	float: left;
+	margin-left: 29px;
+	margin-top: -25px;
+	width: 792px;
+	height: 30px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-weight: 400;
+	font-size: 26px;
+}
+
+.number{
+	display: block;
+	margin-top: 3px;
+	margin-left: 11px;
+	font-family: "Helvetica Neue Cyr";
+	font-weight: 400;
+	font-size: 26px;
+}
+
+.number_1{
+	/* Style for "Ellipse 1" */
+	display: block;
+	float: left;
+	margin-top: 15px;
+	margin-left: -793px;
+	width: 34px;
+	height: 34px;
+	border: 2px solid #484848;
+	border-radius: 30px;
+}
+.number_2{
+	display: block;
+	float: left;
+	margin-top: 65px;
+	margin-left: -698px;
+	width: 34px;
+	height: 34px;
+	border: 2px solid #484848;
+	border-radius: 30px;
+}
+
+.number_3{
+	display: block;
+	float: left;
+	margin-top: 82px;
+	margin-left: -697px;
+	width: 34px;
+	height: 34px;
+	border: 2px solid #484848;
+	border-radius: 30px;
+}
+
+.content_text_3{
+		
+	display: block;
+	float: left;
+	margin-top: 11px;
+	margin-left: 25px;
+	width: 635px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.content_text_4{
+	display: block;
+	float: left;
+	margin-top: 11px;
+	margin-left: 25px;
+	width: 635px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.content_text_5{
+	display: block;
+	float: left;
+	margin-top: 11px;
+	margin-left: 25px;
+	width: 635px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.reviews_color{
+		/* Style for "Отзывы о ц" */
+	display: block;
+	float: left;
+	margin-top: 40px;
+	margin-left: 0px;
+	width: 466px;
+	height: 23px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 26px;
+	font-weight: 400;
+}	
+
+.reviews_more{
+		/* Style for "посмотреть" */
+	display: block;
+	float: left;
+	margin-top: -13px;
+	margin-left: 713px;
+	width: 181px;
+	height: 13px;
+	color: #eb5825;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.reviews{
+	/* Style for "Rectangle" */
+	display: block;
+	float: left;
+	margin-left: 0px;
+	margin-top: 19px;
+	width: 878px;
+	height: 319px;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.review{
+	display: block;
+	float: left;
+	margin-top: 37px;
+	margin-left: 25px;
+	width: 788px;
+	height: 136px;
+}
+
+.review_more{
+	display: block;
+	float: left;
+	margin-left: 50px;
+	margin-top: 0px;
+	list-style: url(ico_1.png);
+}
+
+.review_more > li > a{
+	/* Style for "прочитать" */
+	width: 161px;
+	height: 13px;
+	color: #484848;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.review_more > li > a:hover{
+	color: #eb5825;
+}
+
+.button{
+	/* Style for "Rectangle" */
+	display: block;
+	float: left;
+	margin-left: -181px;
+	margin-top: 59px;
+	width: 163px;
+	height: 39px;
+	border-radius: 5px;
+	background-color: #eb5825;
+}
+
+.button > a{
+	/* Style for "оставить о" */
+	display: block;
+	float: left;
+	margin-left: 26px;
+	margin-top: 6px;
+	width: 138px;
+	height: 35px;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.button:active{
+	background-color: #c14a21;
+}
+
+.footer{
+	/* Style for "футер" */
+	display: block;
+	float: left;
+	margin-top: 1012px;
+	margin-left: 0px;
+	background-color: #a5b7c1;
+	width: 1920px;
+	height: 260px;
+}
+
+.menu_footer_block {
+	display: block;
+	float: left;
+	margin-top: 89px;
+	margin-left: 407px;
+}
+
+.menu_footer {
+	/* Style for "О компании" */
+	list-style: none;
+	width: 1142px;
+	height: 50px;
+	display: inline-block;
+	color: #a5b7c1;;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 24px;
+	font-weight: 400;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}	
+	
+.menu_footer > li{
+	display: inline-block;
+	text-transform: none;
+	text-align: center;
+	width: 228px;
+	height: 57px;
+	margin: -3px;
+	padding: 0;
+	border-right: 1px solid black;
+	background-color: #a5b7c1;
+}
+
+.menu_footer > li > a{
+	display: block;
+	height: 47px;
+	color: #5f6973;
+	cursor: pointer;
+	text-decoration: none;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+.menu_footer > li:hover{
+	background-color: #7bc3d5;
+	cursor: pointer;
+}
